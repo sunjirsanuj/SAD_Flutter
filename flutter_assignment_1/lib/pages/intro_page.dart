@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment_1/theme/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class IntroPage extends StatelessWidget {
@@ -7,7 +8,7 @@ class IntroPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xfffe744c),
+      backgroundColor: primaryColor,
 
       body: SafeArea(
         child: Column(
@@ -68,7 +69,7 @@ class IntroPage extends StatelessWidget {
                       padding: const EdgeInsets.all(5.0),
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Color(0xfffe744c),
+                          color: primaryColor,
                           borderRadius: BorderRadius.circular(25),
                         ),
                         padding: const EdgeInsets.all(10),
